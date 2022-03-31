@@ -1,3 +1,7 @@
 node_modules
 notes-api-webserver.pem 
 vps
+ 
+.env
+.prod.env
+
