@@ -7,7 +7,8 @@
     "prod": "NODE_ENV=production node ./src/server.js",
     "dev": "nodemon ./src/server.js",
     "lint": "eslint ./src",
-    "migrate": "node-pg-migrate"
+    "migrate": "node-pg-migrate",
+    "lint:fix": "eslint ./src --fix"
   },
   "keywords": [],
   "author": "",
