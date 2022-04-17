@@ -2,7 +2,7 @@
 
 exports.shorthands = undefined;
 
-exports.up = (pgm) => {
+exports.up = (pgm,) => {
   pgm.createTable('notes', {
     id: {
       type: 'VARCHAR(50)',
@@ -28,9 +28,9 @@ exports.up = (pgm) => {
       type: 'TEXT',
       notNull: true,
     },
-  });
+  },);
 };
 
-exports.down = (pgm) => {
-  pgm.dropTable('notes');
+exports.down = (pgm,) => {
+  pgm.dropTable('notes',);
 };
